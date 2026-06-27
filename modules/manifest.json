@@ -1,4 +1,13 @@
 {
-    "manifestVersion": 1,
-    "modules": []
+  "manifestVersion": 1,
+  "modules": [
+    {
+      "id": "outlook-new",
+      "contract": "outlook-scanner-v1",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/mbaisuck/MyWorkTimer-modules/main/modules/outlook-new.js",
+      "sha256": "6c1fcf4876b1f966d44fa2ad92ca18381054cc77cd6eef538060f3f76f083133",
+      "releaseNotes": "Initial New Outlook scanner module: PowerShell UIA scrape + interpreter, lifted from the bundled scanner. No behavior change vs bundled."
+    }
+  ]
 }
